@@ -6,10 +6,8 @@ abstract class Shape {
     public Shape(Color color) {
         this.color = color;
     }
-
     public abstract void applyColor();
 }
-
 // Конкретная реализация формы - Круг
 class Circle extends Shape {
     public Circle(Color color) {

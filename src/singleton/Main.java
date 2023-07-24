@@ -1,3 +1,5 @@
+package singleton;
+
 class Singleton {
     // Статическое поле для хранения единственного экземпляра класса
     private static Singleton instance;
@@ -22,7 +24,7 @@ class Singleton {
 
 public class Main {
     public static void main(String[] args) {
-        Singleton singleton = Singleton.getInstance();//new Singleton();
+        Singleton singleton = Singleton.getInstance();//new singleton.Singleton();
         singleton.doSomething(); // Выведет: "Вызван метод doSomething()"
 
         Singleton singleton2 = Singleton.getInstance();
